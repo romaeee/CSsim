@@ -7,12 +7,30 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float speed = 5f;
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Animator animator;
+    [SerializeField] public GameObject dialogueCloude;
     Vector2 movement;
+
+    public static bool isTalking;
+
+    public static bool isBuy1;
+    public static bool isBuy2;
+    public static bool isBuy3;
+    public static bool isBuy4;
+
+    private void Start()
+    {
+        //isTalking = true;
+        //dialogueCloude.SetActive(true);
+    }
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if (!isTalking)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+        }
+            
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
