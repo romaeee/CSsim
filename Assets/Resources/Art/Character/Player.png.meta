@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_4
+      name: Player_4
       rect:
         serializedVersion: 2
         x: 704
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_5
+      name: Player_5
       rect:
         serializedVersion: 2
         x: 736
@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l1
+      name: Player_6
       rect:
         serializedVersion: 2
         x: 384
@@ -872,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l2
+      name: Player_7
       rect:
         serializedVersion: 2
         x: 416
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l3
+      name: Player_8
       rect:
         serializedVersion: 2
         x: 448
@@ -914,10 +914,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l4
+      name: Player_9
       rect:
         serializedVersion: 2
-        x: 480
+        x: 479
         y: 1120
         width: 32
         height: 50
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l5
+      name: Player_10
       rect:
         serializedVersion: 2
         x: 512
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_walk_l6
+      name: Player_walk_11
       rect:
         serializedVersion: 2
         x: 544
@@ -10091,7 +10091,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_0
+      name: Player_0
       rect:
         serializedVersion: 2
         x: 576
@@ -10112,7 +10112,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_1
+      name: Player_1
       rect:
         serializedVersion: 2
         x: 608
@@ -10133,7 +10133,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_2
+      name: Player_2
       rect:
         serializedVersion: 2
         x: 640
@@ -10154,11 +10154,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1Player_3
+      name: Player_3
       rect:
         serializedVersion: 2
         x: 672
-        y: 1184
+        y: 1188
         width: 32
         height: 50
       alignment: 0
@@ -11500,7 +11500,6 @@ TextureImporter:
       Premade_Character_32x32_09_191: -334256804
       Premade_Character_32x32_09_414: 1298988807
       Premade_Character_32x32_09_89: 1267962884
-      Player_walk_l2: 1402232267
       Premade_Character_32x32_09_336: 117109794
       Premade_Character_32x32_09_103: -89242407
       Premade_Character_32x32_09_157: -1604900807
@@ -11508,7 +11507,6 @@ TextureImporter:
       Premade_Character_32x32_09_256: -746161393
       Premade_Character_32x32_09_366: -1807843822
       Premade_Character_32x32_09_487: -2082495090
-      Player_walk_l5: 893221941
       Premade_Character_32x32_09_485: -1429392936
       Premade_Character_32x32_09_245: 649834758
       Premade_Character_32x32_09_102: -694264483
@@ -11527,6 +11525,7 @@ TextureImporter:
       Premade_Character_32x32_09_231: -312217075
       Premade_Character_32x32_09_371: 2113550437
       Premade_Character_32x32_09_132: -668696654
+      Player_4: -1816852234
       Premade_Character_32x32_09_172: -2103371039
       Premade_Character_32x32_09_318: 321312710
       Premade_Character_32x32_09_425: 827077448
@@ -11578,12 +11577,14 @@ TextureImporter:
       Premade_Character_32x32_09_481: 24575611
       Premade_Character_32x32_09_348: -472721114
       Premade_Character_32x32_09_454: -1657636381
+      Player_7: 1402232267
       Premade_Character_32x32_09_416: 2082157609
       Player_walk_f3: -1456917282
       Premade_Character_32x32_09_97: 185647750
       Premade_Character_32x32_09_436: 1228899598
       Premade_Character_32x32_09_77: 489157400
       Premade_Character_32x32_09_281: -861286027
+      Player_10: 893221941
       Premade_Character_32x32_09_486: 1671791036
       Premade_Character_32x32_09_424: 48926530
       Premade_Character_32x32_09_455: -1111308203
@@ -11607,7 +11608,6 @@ TextureImporter:
       Premade_Character_32x32_09_170: -156714207
       Premade_Character_32x32_09_242: -1302760337
       Premade_Character_32x32_09_522: 1661309505
-      1Player_0: 2015337726
       Premade_Character_32x32_09_462: 991693093
       Premade_Character_32x32_09_316: 104397702
       Premade_Character_32x32_09_95: 1642683637
@@ -11615,6 +11615,7 @@ TextureImporter:
       Premade_Character_32x32_09_247: 1971875622
       Premade_Character_32x32_09_255: -600723135
       Premade_Character_32x32_09_382: -906745081
+      Player_3: 407299174
       Premade_Character_32x32_09_159: 677470445
       Player_idle_b5: -589920317
       Premade_Character_32x32_09_88: 168808432
@@ -11677,6 +11678,7 @@ TextureImporter:
       Premade_Character_32x32_09_461: -2121930110
       Player_idle_l1: -1681633358
       Premade_Character_32x32_09_314: 1933493264
+      Player_6: -1612320448
       Premade_Character_32x32_09_118: -1945150094
       Premade_Character_32x32_09_133: 1346055984
       Premade_Character_32x32_09_224: 808410793
@@ -11751,7 +11753,6 @@ TextureImporter:
       Premade_Character_32x32_09_452: -423301038
       Premade_Character_32x32_09_459: 591096880
       Premade_Character_32x32_09_524: -541087576
-      Player_walk_l1: -1612320448
       Premade_Character_32x32_09_433: 546820280
       Player_walk_b4: -1359585568
       Premade_Character_32x32_09_400: 461545488
@@ -11782,8 +11783,8 @@ TextureImporter:
       Premade_Character_32x32_09_237: -329069672
       Premade_Character_32x32_09_372: 2123439405
       Premade_Character_32x32_09_273: -432058570
-      Premade_Character_32x32_09_385: 910489204
       Premade_Character_32x32_09_477: -762275166
+      Premade_Character_32x32_09_385: 910489204
       Premade_Character_32x32_09_534: 1758099656
       Premade_Character_32x32_09_130: 799330621
       Premade_Character_32x32_09_465: -2100750298
@@ -11820,6 +11821,7 @@ TextureImporter:
       Premade_Character_32x32_09_533: -691655145
       Premade_Character_32x32_09_380: -144003844
       Premade_Character_32x32_09_458: 2143576265
+      Player_0: 2015337726
       Premade_Character_32x32_09_351: 1305794285
       Premade_Character_32x32_09_280: 781024999
       Premade_Character_32x32_09_327: -1225737769
@@ -11841,8 +11843,8 @@ TextureImporter:
       Premade_Character_32x32_09_104: -1203307351
       Premade_Character_32x32_09_438: 787950620
       Premade_Character_32x32_09_267: 13987278
+      Player_2: -1833167821
       Premade_Character_32x32_09_110: -623689114
-      1Player_1: -668086666
       Premade_Character_32x32_09_509: -135282600
       Premade_Character_32x32_09_222: -121644407
       Premade_Character_32x32_09_407: -297473635
@@ -11859,14 +11861,13 @@ TextureImporter:
       Player_idle_l3: -661747092
       Premade_Character_32x32_09_278: 811023102
       Premade_Character_32x32_09_341: 1117413526
-      Player_walk_l6: 981205539
       Premade_Character_32x32_09_86: 756099004
       Player_idle_r6: -178650156
+      Player_8: -67844893
       Premade_Character_32x32_09_184: -1996024391
       Premade_Character_32x32_09_260: -717360620
       Premade_Character_32x32_09_200: 1871903240
       Player_walk_f4: 1600468486
-      1Player_2: -1833167821
       Premade_Character_32x32_09_507: -85562087
       Premade_Character_32x32_09_378: -953006702
       Premade_Character_32x32_09_423: 776012088
@@ -11895,7 +11896,6 @@ TextureImporter:
       Premade_Character_32x32_09_363: 496635491
       Premade_Character_32x32_09_370: -2023531784
       Player_idle_b3: 1696699471
-      Player_walk_l4: 154584234
       Player_walk_f1: -1719022742
       Premade_Character_32x32_09_204: -1836790956
       Premade_Character_32x32_09_344: 665908776
@@ -11918,6 +11918,7 @@ TextureImporter:
       Premade_Character_32x32_09_392: -1449705795
       Premade_Character_32x32_09_93: -2127582587
       Premade_Character_32x32_09_100: -1133828719
+      Player_9: 154584234
       Premade_Character_32x32_09_476: 1106457894
       Premade_Character_32x32_09_307: -1936249492
       Premade_Character_32x32_09_125: 1532959963
@@ -11926,12 +11927,10 @@ TextureImporter:
       Premade_Character_32x32_09_220: -1177444635
       Premade_Character_32x32_09_523: 1365717163
       Premade_Character_32x32_09_230: 1141438177
-      1Player_4: -1816852234
       Premade_Character_32x32_09_470: -1678404071
       Player_idle_b6: 729135148
       Premade_Character_32x32_09_467: 495412083
       Premade_Character_32x32_09_504: -840852462
-      1Player_3: 407299174
       Premade_Character_32x32_09_501: -1204729776
       Premade_Character_32x32_09_376: -400890629
       Premade_Character_32x32_09_539: 1747722666
@@ -11979,6 +11978,7 @@ TextureImporter:
       Premade_Character_32x32_09_107: 303440222
       Premade_Character_32x32_09_2: 1574553981
       Premade_Character_32x32_09_262: 1510681541
+      Player_1: -668086666
       Premade_Character_32x32_09_538: 1279989115
       Premade_Character_32x32_09_84: 1352233703
       Premade_Character_32x32_09_78: 1993572984
@@ -12001,6 +12001,7 @@ TextureImporter:
       Premade_Character_32x32_09_168: 86761620
       Premade_Character_32x32_09_510: -1562517348
       Premade_Character_32x32_09_329: -919783440
+      Player_walk_11: 981205539
       Premade_Character_32x32_09_496: 1818026654
       Premade_Character_32x32_09_466: -320639608
       Premade_Character_32x32_09_375: -1833888866
@@ -12012,13 +12013,11 @@ TextureImporter:
       Premade_Character_32x32_09_480: 2629048
       Premade_Character_32x32_09_472: -1038453912
       Premade_Character_32x32_09_215: -1766217622
-      Player_walk_l3: -67844893
       Premade_Character_32x32_09_127: -833890682
       Premade_Character_32x32_09_525: 1098257071
       Premade_Character_32x32_09_164: 301243435
       Premade_Character_32x32_09_252: 764488940
       Player_walk_f2: -714891471
-      1Player_5: -1874725578
       Premade_Character_32x32_09_374: 1218880298
       Premade_Character_32x32_09_154: 1954331836
       Premade_Character_32x32_09_387: 880142002
@@ -12027,6 +12026,7 @@ TextureImporter:
       Premade_Character_32x32_09_257: -1553521000
       Premade_Character_32x32_09_105: 182886679
       Premade_Character_32x32_09_241: 469487615
+      Player_5: -1874725578
       Premade_Character_32x32_09_340: -368821546
   spritePackingTag: 
   pSDRemoveMatte: 0

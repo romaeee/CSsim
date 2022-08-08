@@ -7401,12 +7401,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370382084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdbac246399834e4da34216b673255de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinNr: 1
+  skinNr: 0
   skins:
   - sprites:
     - {fileID: 2015337726, guid: 55d5c885a6fa1473e936b22625905492, type: 3}
@@ -7423,20 +7423,6 @@ MonoBehaviour:
     - {fileID: 576269081, guid: 23e2a8f9db9fb40d98d23789435a5bf8, type: 3}
     - {fileID: -392123427, guid: 23e2a8f9db9fb40d98d23789435a5bf8, type: 3}
   spriteNr: 0
---- !u!114 &1370382098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370382084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575706e29eb5d4a549099b4b3025e674, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  accessoryNr: 0
-  accessories: []
 --- !u!1 &1371287654
 GameObject:
   m_ObjectHideFlags: 0
@@ -11958,6 +11944,10 @@ PrefabInstance:
       propertyPath: dialogueCloude
       value: 
       objectReference: {fileID: 1954354072}
+    - target: {fileID: 8828812748667383816, guid: 15b7c02d234f643329be1e795663d365, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8828812748667383817, guid: 15b7c02d234f643329be1e795663d365, type: 3}
       propertyPath: m_RootOrder
       value: 2
