@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     public static bool isTalking;
 
+    public static bool isQuest;
     public static bool isBuy1;
     public static bool isBuy2;
     public static bool isBuy3;
@@ -30,7 +31,11 @@ public class PlayerMovement : MonoBehaviour
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
         }
-            
+        else
+        {
+            movement.y = 0;
+            movement.x = 0;
+        }
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);

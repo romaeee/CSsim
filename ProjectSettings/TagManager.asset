@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CheckFinish
   - NPCStaff1
+  - NPCStaff2
+  - NPCCust1
   layers:
   - Default
   - TransparentFX

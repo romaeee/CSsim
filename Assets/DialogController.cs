@@ -9,7 +9,7 @@ public class DialogController : MonoBehaviour
     private List<string> currentDialogue = new List<string>();
     [SerializeField] private List<string> dialog0 = new List<string>(); // Hello
     [SerializeField] private List<string> dialog1 = new List<string>(); // Checking finish
-    [SerializeField] private List<string> dialog2 = new List<string>(); // Staff help
+    [SerializeField] private List<string> dialog2 = new List<string>(); // Good!
     [SerializeField] private List<string> dialog3 = new List<string>();
     [SerializeField] private List<string> dialog4 = new List<string>();
     [SerializeField] private List<string> dialog5 = new List<string>();
@@ -39,13 +39,24 @@ public class DialogController : MonoBehaviour
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog1;
         }
-        else if (collision.tag == "Player")
+        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2")
         {
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog0;
-            //collision.GetComponent<DialogController>().enabled = true;
-            //collision.GetComponent<DialogController>().StartCoroutine(StartDialogue(waitStart));
-            //currentDialogue = dialog1;
+
+        }
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1")
+        {
+            
+            Debug.Log("Dia");
+            StartCoroutine(StartDialogue(waitStart));
+            //currentDialogue = dialog0;
+        }
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2")
+        {
+            PlayerMovement.isQuest = true;
+            StartCoroutine(StartDialogue(waitStart));
+            //currentDialogue = dialog0;
         }
     }
 
@@ -64,10 +75,8 @@ public class DialogController : MonoBehaviour
             numOfOhrase++;
             if (numOfOhrase == currentDialogue.Count)
             {
-                if (!isLoop)
-                    StartCoroutine(StopDialogue());
-                //else
-                    //numOfOhrase = 0; StartCoroutine(StartDialogue(waitStart));
+                StartCoroutine(StopDialogue());
+
             }
             else
             {
