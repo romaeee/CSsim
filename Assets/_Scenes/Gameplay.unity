@@ -320,12 +320,16 @@ PrefabInstance:
       value: 137.31
       objectReference: {fileID: 0}
     - target: {fileID: 8804813650396011814, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
+      propertyPath: m_Radius
+      value: 0.48491526
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804813650396011814, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: m_Offset.x
-      value: 0.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8804813650396011814, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: m_Offset.y
-      value: -0.21
+      value: -0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
@@ -7423,6 +7427,22 @@ MonoBehaviour:
     - {fileID: 576269081, guid: 23e2a8f9db9fb40d98d23789435a5bf8, type: 3}
     - {fileID: -392123427, guid: 23e2a8f9db9fb40d98d23789435a5bf8, type: 3}
   spriteNr: 0
+--- !u!58 &1370382098
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370382084}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.01469183, y: -0.4}
+  serializedVersion: 2
+  m_Radius: 0.3845725
 --- !u!1 &1371287654
 GameObject:
   m_ObjectHideFlags: 0
