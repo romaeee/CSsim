@@ -24,10 +24,17 @@ public class DialogController : MonoBehaviour
 
     private int numOfOhrase = 0;
     private bool isSpeak;
+    private bool isReady;
+    private bool isFirst=true;
 
     private void Start()
     {
-        currentDialogue = dialog0;
+        if (isFirst)
+        {
+            isFirst = false;
+            currentDialogue = dialog0;
+        }
+        
         if(gameObject.tag == "Player")
             StartCoroutine(StartDialogue(waitStart));
     }
@@ -60,11 +67,22 @@ public class DialogController : MonoBehaviour
         }
     }
 
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && dialogueObject.activeSelf)
         {
             NextPhrase();
+        }
+
+        if (isReady)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                currentDialogue = dialog0;
+                StartCoroutine(StartDialogue(waitStart));
+            }
+                
         }
     }
 
@@ -80,6 +98,8 @@ public class DialogController : MonoBehaviour
             }
             else
             {
+                if (gameObject.tag == "NPCCust1")
+                    isReady = true;
                 phrase.text = "";
                 StartCoroutine(PlayText());
             }

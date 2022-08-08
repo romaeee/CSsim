@@ -1,0 +1,1410 @@
+fileFormatVersion: 2
+guid: 23e2a8f9db9fb40d98d23789435a5bf8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efad57f5c70c34e1b91a7507ac6e1d31
+      internalID: -798962689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 192
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aef8734bfea4b80a5137ce211fa0b2
+      internalID: 782111781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ec007c65c304a2cbb9c44ffaaeb7dc
+      internalID: 142471165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45fe3670a0eb4fc69252e7033345c6c
+      internalID: -2009842399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33734c102216d423e8a6f13d891d13df
+      internalID: 986035883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb11c63d79014dbc8effe4747d4bbb6
+      internalID: -1569799626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad86a4491e5b046d7bcdd867fd738a41
+      internalID: 1331746879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb0dda5650bd431dbb0556122711e4d
+      internalID: -752409992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c47c13696304f64a8670e11e58cc81
+      internalID: -812982443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd1fb3ca6608400a9b55dd788f30ff0
+      internalID: -901065675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de4f50ac0823434ab42265f3ef5b4bf
+      internalID: -1754793539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14daa5e5f93a942ceb7f3d00a9a32a00
+      internalID: -101350114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c25301803c449cc9cdb531a86980a3
+      internalID: -2090883002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dfd2dcc89714e23b55e444691c38a6
+      internalID: 1839937939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ef1dc38d2344fabc4d9faa79e67d9
+      internalID: 104912765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87ca02abbb874089a9d0a1ed903170d
+      internalID: 1473277818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6258e89383a554e70887eda906955491
+      internalID: -778647386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e230c1e7a43ec4400808e43b53389094
+      internalID: 770290377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 128
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2576a407a5264e40b2df169d546232f
+      internalID: -757272919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 128
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b299fcb890c4a21aa0f43966c1e703
+      internalID: -53690631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4934acebf6f41e7a40382914ec787d
+      internalID: 1037653662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 128
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a844855c33c4bd9a881e1072f42aea
+      internalID: 1131216228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_0
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3036da6fc55e49729dfa31e8580c167
+      internalID: -294529961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 129
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd0f50b819464110ae594e9ace6ae33
+      internalID: 801086890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fe8e5aeb727446c9217120d38ee5b1
+      internalID: 2034881411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00745696c4ecf458d9cf685b2d9522ca
+      internalID: -1999368417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ae899381414d3a900da1a40c9f923
+      internalID: 576269081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Player_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d097746ae23b4caea738764678852d3
+      internalID: -392123427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a00805dea61434db468331e49cb585
+      internalID: -1729638678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4b788ecdfce40aebbe6cba22672648
+      internalID: -1566779409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62895a7977ff4e88a038f91846ae3a9
+      internalID: -809585552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3108a781c469141e8ae22c0fa5ca39d8
+      internalID: 1990028593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e8ff24d74d947459f121b3031bf320
+      internalID: 413863887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788976302c5e3476a9e92c81b44e5107
+      internalID: -1384939368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477a914721ca8420c9d72bfca996ada2
+      internalID: 334506464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc99f581dff84bb18745feb3b30a645
+      internalID: 343373388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b02d476e139741209bf4965b4f4b0cd
+      internalID: -1921451643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2a9397b6b3d447589e3084ed2a120a
+      internalID: -1190797910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 64
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7ce66b0a224de49a8aa0f85e8ff21
+      internalID: 1256426353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1198c0a1a8d4f83b7784af4f30a4dd
+      internalID: -852115612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed029f45ff144627969c30e9842a45d
+      internalID: -1086734968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 66
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9b3f73c68fb433d822b579683a5942
+      internalID: 1479304640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75563cfc260e34d188e613f10767b420
+      internalID: -46439639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f343b299a364ee0a506e2b5c904b6d
+      internalID: 892889945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 66
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88275debcedb844788a9167875a2b981
+      internalID: -1844440357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 64
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194105019a98d43aeae26a698c50b679
+      internalID: -959915766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e466be90ab040f0bb97d3c94f82a2c
+      internalID: -1956179496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bb0ebb3f5974970a4d00548697edcc
+      internalID: -610459772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8d183ef26546e7ae4fe56806c3d09
+      internalID: -1412626157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca0fce8c7cf49b982c90f85595564e
+      internalID: 1079371578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062a66879c464c6e8328f815998da01
+      internalID: 662209618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dc2a14ff1884c0099ba98b12c51a84
+      internalID: -1717342755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b37308d848fd4304a30f548ceffd4f5
+      internalID: 696451431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d809fbf783be445b97e765c52932efa
+      internalID: -1958038443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4308464894b294691a22bd61398056f4
+      internalID: 19026587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 16
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c21416a73f84b0e8973027105b45be
+      internalID: -791680827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b072c6890ccf45eba5e4fc0ea38c281
+      internalID: -667243885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_6_pajama_frog_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 14
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2afa056ba4fc423b8ec5f2434f01cbc
+      internalID: 1960028676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Outfit_kid_6_pajama_frog_32x32_46: -1956179496
+      2Player_5: -392123427
+      Outfit_kid_6_pajama_frog_32x32_32: 413863887
+      Outfit_kid_6_pajama_frog_32x32_35: 343373388
+      Outfit_kid_6_pajama_frog_32x32_11: -101350114
+      Outfit_kid_6_pajama_frog_32x32_51: -1717342755
+      Outfit_kid_6_pajama_frog_32x32_49: 1079371578
+      Outfit_kid_6_pajama_frog_32x32_14: 104912765
+      Outfit_kid_6_pajama_frog_32x32_9: -901065675
+      Outfit_kid_6_pajama_frog_32x32_55: -791680827
+      Outfit_kid_6_pajama_frog_32x32_0: -798962689
+      Outfit_kid_6_pajama_frog_32x32_50: 662209618
+      Outfit_kid_6_pajama_frog_32x32_3: -2009842399
+      Outfit_kid_6_pajama_frog_32x32_2: 142471165
+      Outfit_kid_6_pajama_frog_32x32_56: -667243885
+      Outfit_kid_6_pajama_frog_32x32_57: 1960028676
+      Outfit_kid_6_pajama_frog_32x32_1: 782111781
+      Outfit_kid_6_pajama_frog_32x32_40: -1086734968
+      Outfit_kid_6_pajama_frog_32x32_42: -46439639
+      Outfit_kid_6_pajama_frog_32x32_31: 1990028593
+      Outfit_kid_6_pajama_frog_32x32_33: -1384939368
+      Outfit_kid_6_pajama_frog_32x32_48: -1412626157
+      2Player_4: 576269081
+      Outfit_kid_6_pajama_frog_32x32_34: 334506464
+      Outfit_kid_6_pajama_frog_32x32_16: -778647386
+      Outfit_kid_6_pajama_frog_32x32_36: -1921451643
+      Outfit_kid_6_pajama_frog_32x32_12: -2090883002
+      Outfit_kid_6_pajama_frog_32x32_39: -852115612
+      Outfit_kid_6_pajama_frog_32x32_8: -812982443
+      Outfit_kid_6_pajama_frog_32x32_15: 1473277818
+      Outfit_kid_6_pajama_frog_32x32_54: 19026587
+      2Player_3: -1999368417
+      2Player_0: -294529961
+      Outfit_kid_6_pajama_frog_32x32_21: 1131216228
+      Outfit_kid_6_pajama_frog_32x32_29: -1566779409
+      Outfit_kid_6_pajama_frog_32x32_13: 1839937939
+      Outfit_kid_6_pajama_frog_32x32_41: 1479304640
+      2Player_2: 2034881411
+      Outfit_kid_6_pajama_frog_32x32_20: 1037653662
+      2Player_1: 801086890
+      Outfit_kid_6_pajama_frog_32x32_6: 1331746879
+      Outfit_kid_6_pajama_frog_32x32_7: -752409992
+      Outfit_kid_6_pajama_frog_32x32_38: 1256426353
+      Outfit_kid_6_pajama_frog_32x32_18: -757272919
+      Outfit_kid_6_pajama_frog_32x32_17: 770290377
+      Outfit_kid_6_pajama_frog_32x32_5: -1569799626
+      Outfit_kid_6_pajama_frog_32x32_10: -1754793539
+      Outfit_kid_6_pajama_frog_32x32_30: -809585552
+      Outfit_kid_6_pajama_frog_32x32_52: 696451431
+      Outfit_kid_6_pajama_frog_32x32_43: 892889945
+      Outfit_kid_6_pajama_frog_32x32_45: -959915766
+      Outfit_kid_6_pajama_frog_32x32_28: -1729638678
+      Outfit_kid_6_pajama_frog_32x32_47: -610459772
+      Outfit_kid_6_pajama_frog_32x32_53: -1958038443
+      Outfit_kid_6_pajama_frog_32x32_44: -1844440357
+      Outfit_kid_6_pajama_frog_32x32_37: -1190797910
+      Outfit_kid_6_pajama_frog_32x32_4: 986035883
+      Outfit_kid_6_pajama_frog_32x32_19: -53690631
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
