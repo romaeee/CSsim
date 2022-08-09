@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
             Pause();
 
-        cartText.text = "Your cart: " + CartScript.cartId.Count.ToString() + "/6";
+        cartText.text = "Your cart: " + CartScript.cartId.Count.ToString() + "/6 [Q]";
     }
 
     public void Pause()

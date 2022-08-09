@@ -26,15 +26,10 @@ public class ShelfCode : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && PlayerMovement.isAction)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            ShelfWindow.SetActive(true);
-            Btn.SetActive(false);
-            PlayerMovement.isTalking = true;
+            CheckShelf();
         }
-
-        if(!ShelfWindow.activeSelf)
-            PlayerMovement.isTalking = false;
     }
 
     public void AddToCart(int id)
@@ -43,7 +38,26 @@ public class ShelfCode : MonoBehaviour
             CartScript.cartId.Add(id);
         else
             Debug.Log("Already in a card");
+    }
 
-        
+    public void CheckShelf()
+    {
+        if (Btn.activeSelf)// && !PlayerMovement.isTalking)
+        {
+            PlayerMovement.isAction = true;
+            ShelfWindow.SetActive(true);
+            Btn.SetActive(false);
+            //PlayerMovement.isTalking = true;
+        }
+
+        else if (ShelfWindow.activeSelf)
+        {
+            PlayerMovement.isAction = false;
+            Debug.Log("Open Shelf");
+            ShelfWindow.SetActive(false);
+            Btn.SetActive(true);
+            //PlayerMovement.isTalking = false;
+
+        }
     }
 }

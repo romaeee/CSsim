@@ -46,24 +46,20 @@ public class DialogController : MonoBehaviour
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog1;
         }
-        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !dialogueObject.activeSelf)
+        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !PlayerMovement.isTalking)
         {
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog0;
 
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !dialogueObject.activeSelf)
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
         {
-            
-            Debug.Log("Dia");
             StartCoroutine(StartDialogue(waitStart));
-            //currentDialogue = dialog0;
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2" && !dialogueObject.activeSelf)
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
         {
             PlayerMovement.isQuest = true;
             StartCoroutine(StartDialogue(waitStart));
-            //currentDialogue = dialog0;
         }
     }
 

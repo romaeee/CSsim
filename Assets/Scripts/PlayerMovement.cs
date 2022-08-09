@@ -8,10 +8,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Animator animator;
     [SerializeField] public GameObject dialogueCloude;
+    [SerializeField] public GameObject cardObject;
 
     Vector2 movement;
 
     public static bool isTalking;
+    public static bool isCard;
 
     public static bool isQuest;
     public static bool isBuy1;
@@ -20,16 +22,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        //isTalking = true;
-        //dialogueCloude.SetActive(true);
+        isAction = false;
+        isTalking = false;
+    //isTalking = true;
+    //dialogueCloude.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Shelf")
         {
-            isAction = true;
-            isTalking = true;
+            //isAction = true;
+            //isTalking = true;
         }
         
     }
@@ -38,22 +42,23 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.tag == "Shelf")
         {
-            isAction = false;
-            isTalking = false;
+            //isAction = false;
+            //isTalking = false;
         }
     }
 
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q) && !isAction)
+            OpenCard();
 
-
-        if (!isTalking)
+        if (!isAction)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
         }
-        else if (isTalking)
+        if (isAction)
         {
             movement.y = 0;
             movement.x = 0;
@@ -70,6 +75,23 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
+
+    private void OpenCard()
+    {
+        if (!isCard)
+        {
+            isCard = true;
+            cardObject.SetActive(true);
+            isTalking = true;
+        }
+        else
+        {
+            isCard = false;
+            cardObject.SetActive(false);
+            isTalking = false;
+        }
+    }
+
 
     private void CheckIdlePos()
     {
