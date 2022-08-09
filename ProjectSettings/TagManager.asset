@@ -8,6 +8,7 @@ TagManager:
   - NPCStaff1
   - NPCStaff2
   - NPCCust1
+  - Shelf
   layers:
   - Default
   - TransparentFX

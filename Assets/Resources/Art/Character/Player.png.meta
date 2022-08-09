@@ -10158,12 +10158,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 672
-        y: 1188
+        y: 1184
         width: 32
-        height: 50
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0

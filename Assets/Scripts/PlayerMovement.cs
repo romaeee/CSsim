@@ -8,15 +8,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Animator animator;
     [SerializeField] public GameObject dialogueCloude;
+
     Vector2 movement;
 
     public static bool isTalking;
 
     public static bool isQuest;
     public static bool isBuy1;
-    public static bool isBuy2;
-    public static bool isBuy3;
-    public static bool isBuy4;
+    public static bool isAction;
+
 
     private void Start()
     {
@@ -24,14 +24,36 @@ public class PlayerMovement : MonoBehaviour
         //dialogueCloude.SetActive(true);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Shelf")
+        {
+            isAction = true;
+            isTalking = true;
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Shelf")
+        {
+            isAction = false;
+            isTalking = false;
+        }
+    }
+
+
     void Update()
     {
+
+
         if (!isTalking)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
         }
-        else
+        else if (isTalking)
         {
             movement.y = 0;
             movement.x = 0;
