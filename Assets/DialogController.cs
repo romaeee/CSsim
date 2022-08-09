@@ -47,6 +47,7 @@ public class DialogController : MonoBehaviour
             currentDialogue = dialog1;
         }
 
+
         else if (collision.tag == "CheckFinish" && GameController.currentMoney < 1000)
         {
             GameController.priceData.Clear();
@@ -111,6 +112,7 @@ public class DialogController : MonoBehaviour
         else if (characterName == "Cust_2" && PlayerMovement.isQuest && CartScript.cartId.Contains(8) && !PlayerMovement.isComplited)
         {
             currentDialogue = dialog2;
+            CartScript.totalPrice -= 1000;
             CartScript.cartId.RemoveAt(CartScript.cartId.IndexOf(8));
             PlayerMovement.isComplited = true;
         }
