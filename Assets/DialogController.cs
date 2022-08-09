@@ -41,25 +41,25 @@ public class DialogController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "CheckFinish")
+        if (collision.tag == "CheckFinish" && !PlayerMovement.isTalking)
         {
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog1;
         }
-        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2")
+        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !dialogueObject.activeSelf)
         {
             StartCoroutine(StartDialogue(waitStart));
             currentDialogue = dialog0;
 
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1")
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !dialogueObject.activeSelf)
         {
             
             Debug.Log("Dia");
             StartCoroutine(StartDialogue(waitStart));
             //currentDialogue = dialog0;
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2")
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2" && !dialogueObject.activeSelf)
         {
             PlayerMovement.isQuest = true;
             StartCoroutine(StartDialogue(waitStart));

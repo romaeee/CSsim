@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private Text moneyText;
+    [SerializeField] private Text cartText;
 
     private bool isPaused;
     public static int currentMoney = 1000;
@@ -24,6 +25,8 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
             Pause();
+
+        cartText.text = "Your cart: " + CartScript.cartId.Count.ToString() + "/6";
     }
 
     public void Pause()
