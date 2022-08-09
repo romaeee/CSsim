@@ -38,7 +38,7 @@ public class ShelfCode : MonoBehaviour
         if (!CartScript.cartId.Contains(id))
         {
             CartScript.cartId.Add(id);
-            CartScript.totalPrice += GameController.piriceData[id];
+            CartScript.totalPrice += GameController.priceData[id];
         }
             
         else

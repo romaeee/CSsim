@@ -13,19 +13,19 @@ public class GameController : MonoBehaviour
     private bool isPaused;
     public static int currentMoney = 1000;
 
-    public static Dictionary<int, int> piriceData = new Dictionary<int, int>();
+    public static Dictionary<int, int> priceData = new Dictionary<int, int>();
 
     private void Awake()
     {
-        piriceData.Add(0, 300);
-        piriceData.Add(1, 300);
-        piriceData.Add(2, 300);
-        piriceData.Add(3, 300);
-        piriceData.Add(4, 300);
-        piriceData.Add(5, 500); // jacet
-        piriceData.Add(6, 500); // pajama
-        piriceData.Add(7, 500); // pajama
-        piriceData.Add(8, 1000); // Dress
+        priceData.Add(0, 300);
+        priceData.Add(1, 300);
+        priceData.Add(2, 300);
+        priceData.Add(3, 300);
+        priceData.Add(4, 300);
+        priceData.Add(5, 500); // jacet
+        priceData.Add(6, 500); // pajama
+        priceData.Add(7, 500); // pajama
+        priceData.Add(8, 1000); // Dress
     }
 
     void Start()
@@ -67,11 +67,13 @@ public class GameController : MonoBehaviour
 
     public void Replay(string currentSceneName)
     {
+        GameController.priceData.Clear();
         SceneManager.LoadScene(currentSceneName);
     }
 
     public void MainMenu(string mainMenuScene)
     {
+        GameController.priceData.Clear();
         SceneManager.LoadScene(mainMenuScene);
     }
 }

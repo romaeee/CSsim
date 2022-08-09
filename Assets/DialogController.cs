@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogController : MonoBehaviour
 {
@@ -26,54 +27,37 @@ public class DialogController : MonoBehaviour
     private int numOfOhrase = 0;
     private bool isSpeak;
     private bool isReady;
-    private bool isFirst=true;
+    private bool isFinish;
 
     private void Start()
     {
-        //if (isFirst)
-        //{
-        //    isFirst = false;
-        //    currentDialogue = dialog0;
-        //}
-        
-        if(gameObject.tag == "Player")
+        if (gameObject.tag == "Player")
         {
             currentDialogue = dialog0;
             StartCoroutine(StartDialogue(waitStart));
-        }
-            
+        }    
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "CheckFinish" && !PlayerMovement.isTalking)
+        if (collision.tag == "CheckFinish" && !PlayerMovement.isTalking && GameController.currentMoney == 1000)
         {
             CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
-            
             currentDialogue = dialog1;
         }
-        else if (collision.tag == "Player" && !PlayerMovement.isTalking)// && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !PlayerMovement.isTalking)
-        {
-            Debug.Log("Test");
-            CheckPhrase();
-            StartCoroutine(StartDialogue(waitStart));
-            
-            //currentDialogue = dialog0;
 
+        else if (collision.tag == "CheckFinish" && GameController.currentMoney < 1000)
+        {
+            GameController.priceData.Clear();
+            SceneManager.LoadScene("EndScreen");
         }
-        /*
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !PlayerMovement.isTalking)
+
+        else if (collision.tag == "Player" && !PlayerMovement.isTalking)
         {
             CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust2" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
-        {
-            CheckPhrase();
-            StartCoroutine(StartDialogue(waitStart));
-        }
-        */
     }
 
 
@@ -91,7 +75,6 @@ public class DialogController : MonoBehaviour
                 currentDialogue = dialog0;
                 StartCoroutine(StartDialogue(waitStart));
             }
-                
         }
     }
 
@@ -114,6 +97,7 @@ public class DialogController : MonoBehaviour
             GameController.currentMoney -= CartScript.totalPrice;
             CartScript.cartId.Clear();
             CartScript.totalPrice = 0;
+            
         }
         if (characterName == "Cust_2" && !PlayerMovement.isQuest && !PlayerMovement.isComplited)
         {

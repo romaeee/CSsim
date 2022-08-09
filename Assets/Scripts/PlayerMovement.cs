@@ -24,8 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         isAction = false;
         isTalking = false;
-    //isTalking = true;
-    //dialogueCloude.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -21,7 +21,6 @@ public class CartScript : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("cartId.Count: " + cartId.Count + ", slots: " + slots.Count);
         for (int i = 0; i < slots.Count; i++)
         {
             slots[i].sprite = null;
@@ -31,8 +30,6 @@ public class CartScript : MonoBehaviour
 
     private void Update()
     {
-        //CheckCart();
-
         if (Input.GetKeyDown(KeyCode.E))
         {
             CheckSCartStat();
@@ -43,11 +40,10 @@ public class CartScript : MonoBehaviour
     {
         if (cartId.Count > 0)
         {
-            totalPrice -= GameController.piriceData[cartId.IndexOf(slotIndex) + 1];
+            totalPrice -= GameController.priceData[cartId.IndexOf(slotIndex) + 1];
             cartId.RemoveAt(cartId.IndexOf(slotIndex) + 1);
         }
             
-        //UbdCard();
         if (slots[slotIndex].sprite!=null)
             slots[slotIndex].sprite = null;
         CheckCart();
