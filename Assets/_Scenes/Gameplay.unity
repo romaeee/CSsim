@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.data[0]
-      value: Occupied
+      value: Occupied!
       objectReference: {fileID: 0}
     - target: {fileID: 1733466616594129064, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: m_Enabled
@@ -7630,7 +7630,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: textSpeed
-      value: 0.125
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: characterName
@@ -7811,7 +7811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370382084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdbac246399834e4da34216b673255de, type: 3}
   m_Name: 
@@ -13167,6 +13167,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6142711143282800677, guid: 6bcda5e2d15d3465aa26795393b6e65a, type: 3}
+      propertyPath: m_Text
+      value: $500
+      objectReference: {fileID: 0}
     - target: {fileID: 7728951073157884193, guid: 6bcda5e2d15d3465aa26795393b6e65a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -13234,7 +13238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog1.Array.size
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: dialog2.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.data[0]
@@ -13250,15 +13258,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog1.Array.data[0]
-      value: 
+      value: It's $&money
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog1.Array.data[1]
-      value: 
+      value: Not enoght money!
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog1.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: dialog2.Array.data[0]
+      value: It's $&money
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: dialog2.Array.data[1]
+      value: Have a good day!
       objectReference: {fileID: 0}
     - target: {fileID: 1733466616594129066, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: m_RootOrder

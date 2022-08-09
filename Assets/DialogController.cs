@@ -53,15 +53,17 @@ public class DialogController : MonoBehaviour
             
             currentDialogue = dialog1;
         }
-        else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !PlayerMovement.isTalking)
+        else if (collision.tag == "Player" && !PlayerMovement.isTalking)// && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !PlayerMovement.isTalking)
         {
+            Debug.Log("Test");
             CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
             
             //currentDialogue = dialog0;
 
         }
-        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
+        /*
+        else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !PlayerMovement.isTalking)
         {
             CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
@@ -71,6 +73,7 @@ public class DialogController : MonoBehaviour
             CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
         }
+        */
     }
 
 
@@ -98,6 +101,20 @@ public class DialogController : MonoBehaviour
             currentDialogue = dialog0;
         if (characterName == "Staff_1" && CartScript.cartId.Count == 0)
             currentDialogue = dialog0;
+        else if (characterName == "Staff_1" && CartScript.cartId.Count > 0 && GameController.currentMoney-CartScript.totalPrice < 0)
+        {
+            currentDialogue = dialog1;
+            currentDialogue[0] = "It's $" + CartScript.totalPrice.ToString();
+        }
+            
+        else if (characterName == "Staff_1" && CartScript.cartId.Count > 0 && GameController.currentMoney - CartScript.totalPrice > 0)
+        {
+            currentDialogue = dialog2;
+            currentDialogue[0] = "It's $" + CartScript.totalPrice.ToString();
+            GameController.currentMoney -= CartScript.totalPrice;
+            CartScript.cartId.Clear();
+            CartScript.totalPrice = 0;
+        }
         if (characterName == "Cust_2" && !PlayerMovement.isQuest && !PlayerMovement.isComplited)
         {
             currentDialogue = dialog0;

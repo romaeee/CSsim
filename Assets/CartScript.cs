@@ -12,6 +12,8 @@ public class CartScript : MonoBehaviour
 
     public static int totalPrice;
 
+
+
     private void Start()
     {
         UbdCard();
@@ -40,7 +42,11 @@ public class CartScript : MonoBehaviour
     public void RemoveItem(int slotIndex)
     {
         if (cartId.Count > 0)
-            cartId.RemoveAt(cartId.IndexOf(slotIndex)+1);
+        {
+            totalPrice -= GameController.piriceData[cartId.IndexOf(slotIndex) + 1];
+            cartId.RemoveAt(cartId.IndexOf(slotIndex) + 1);
+        }
+            
         //UbdCard();
         if (slots[slotIndex].sprite!=null)
             slots[slotIndex].sprite = null;

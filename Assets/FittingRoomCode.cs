@@ -7,7 +7,6 @@ public class FittingRoomCode : MonoBehaviour
 {
     [SerializeField] private List<Image> slots = new List<Image>();
     [SerializeField] private List<Sprite> allClothes = new List<Sprite>();
-    //[SerializeField] private List<GameObject> rmBtn = new List<GameObject>();
 
     void Start()
     {

@@ -13,10 +13,24 @@ public class GameController : MonoBehaviour
     private bool isPaused;
     public static int currentMoney = 1000;
 
+    public static Dictionary<int, int> piriceData = new Dictionary<int, int>();
+
+    private void Awake()
+    {
+        piriceData.Add(0, 300);
+        piriceData.Add(1, 300);
+        piriceData.Add(2, 300);
+        piriceData.Add(3, 300);
+        piriceData.Add(4, 300);
+        piriceData.Add(5, 500); // jacet
+        piriceData.Add(6, 500); // pajama
+        piriceData.Add(7, 500); // pajama
+        piriceData.Add(8, 1000); // Dress
+    }
 
     void Start()
     {
-        moneyText.text = "Money: $" + currentMoney;
+        
         Time.timeScale = 1;
     }
 
@@ -26,6 +40,7 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
             Pause();
 
+        moneyText.text = "Money: $" + currentMoney;
         cartText.text = "Your cart: " + CartScript.cartId.Count.ToString() + "/6 [Q]";
     }
 
