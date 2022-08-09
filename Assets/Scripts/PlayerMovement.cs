@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public static bool isCard;
 
     public static bool isQuest;
-    public static bool isBuy1;
+    public static bool isComplited;
     public static bool isAction;
 
 

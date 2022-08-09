@@ -10,6 +10,8 @@ public class CartScript : MonoBehaviour
     [SerializeField] private List<Sprite> allClothes = new List<Sprite>();
     [SerializeField] private List<GameObject> rmBtn = new List<GameObject>();
 
+    public static int totalPrice;
+
     private void Start()
     {
         UbdCard();

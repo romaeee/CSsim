@@ -7,6 +7,7 @@ public class ShelfCode : MonoBehaviour
     [SerializeField] private GameObject Btn;
     [SerializeField] public GameObject ShelfWindow;
     [SerializeField] private GameObject rmtBtn;
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -35,10 +36,16 @@ public class ShelfCode : MonoBehaviour
     public void AddToCart(int id)
     {
         if (!CartScript.cartId.Contains(id))
+        {
             CartScript.cartId.Add(id);
+            //CartScript.totalPrice += price;
+        }
+            
         else
             Debug.Log("Already in a card");
     }
+
+
 
     public void CheckShelf()
     {

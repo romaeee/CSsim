@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialogController : MonoBehaviour
 {
+    [SerializeField] private string characterName;
     [SerializeField] private GameObject dialogueObject;
     private List<string> currentDialogue = new List<string>();
     [SerializeField] private List<string> dialog0 = new List<string>(); // Hello
@@ -29,36 +30,45 @@ public class DialogController : MonoBehaviour
 
     private void Start()
     {
-        if (isFirst)
-        {
-            isFirst = false;
-            currentDialogue = dialog0;
-        }
+        //if (isFirst)
+        //{
+        //    isFirst = false;
+        //    currentDialogue = dialog0;
+        //}
         
         if(gameObject.tag == "Player")
+        {
+            currentDialogue = dialog0;
             StartCoroutine(StartDialogue(waitStart));
+        }
+            
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "CheckFinish" && !PlayerMovement.isTalking)
         {
+            CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
+            
             currentDialogue = dialog1;
         }
         else if (collision.tag == "Player" && gameObject.tag != "NPCCust1" && gameObject.tag != "NPCCust2" && !PlayerMovement.isTalking)
         {
+            CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
-            currentDialogue = dialog0;
+            
+            //currentDialogue = dialog0;
 
         }
         else if (collision.tag == "Player" && gameObject.tag == "NPCCust1" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
         {
+            CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
         }
         else if (collision.tag == "Player" && gameObject.tag == "NPCCust2" && !dialogueObject.activeSelf && !PlayerMovement.isTalking)
         {
-            PlayerMovement.isQuest = true;
+            CheckPhrase();
             StartCoroutine(StartDialogue(waitStart));
         }
     }
@@ -81,6 +91,35 @@ public class DialogController : MonoBehaviour
                 
         }
     }
+
+    public void CheckPhrase()
+    {
+        if (characterName == "Player" || characterName == "Cust_1" || characterName == "Staff_2" || characterName == "NPC_1" || characterName == "NPC_2")
+            currentDialogue = dialog0;
+        if (characterName == "Staff_1" && CartScript.cartId.Count == 0)
+            currentDialogue = dialog0;
+        if (characterName == "Cust_2" && !PlayerMovement.isQuest && !PlayerMovement.isComplited)
+        {
+            currentDialogue = dialog0;
+            PlayerMovement.isQuest = true;
+        }
+        else if (characterName == "Cust_2" && PlayerMovement.isQuest && !CartScript.cartId.Contains(8) && !PlayerMovement.isComplited)
+        {
+            currentDialogue = dialog1;
+        }
+        else if (characterName == "Cust_2" && PlayerMovement.isQuest && CartScript.cartId.Contains(8) && !PlayerMovement.isComplited)
+        {
+            currentDialogue = dialog2;
+            CartScript.cartId.RemoveAt(CartScript.cartId.IndexOf(8));
+            PlayerMovement.isComplited = true;
+        }
+        else if (characterName == "Cust_2" && PlayerMovement.isQuest && PlayerMovement.isComplited)
+        {
+            currentDialogue = dialog3;
+
+        }
+    }
+
 
     public void NextPhrase()
     {

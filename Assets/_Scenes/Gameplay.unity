@@ -135,6 +135,10 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: characterName
+      value: NPC_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -355,6 +359,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1030014366}
     m_Modifications:
     - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
+      propertyPath: characterName
+      value: Cust_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: dialog0.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -364,6 +372,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: dialog2.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
+      propertyPath: dialog3.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
@@ -380,11 +392,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: dialog1.Array.data[0]
+      value: I'll be right here!
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
+      propertyPath: dialog1.Array.data[1]
       value: Ohhh! Thank you so much!
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: dialog2.Array.data[0]
-      value: I'll be right here!
+      value: Ohhh! Thank you so much!
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
+      propertyPath: dialog3.Array.data[0]
+      value: Thank you again!!!
       objectReference: {fileID: 0}
     - target: {fileID: 1733466616594129066, guid: e1ef10f0deaf94664a6805fae76b007f, type: 3}
       propertyPath: m_RootOrder
@@ -5747,6 +5767,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1030014366}
     m_Modifications:
     - target: {fileID: 286176353061492579, guid: 799c4b9e7fdcc4d5ab5de87c7d9b77ba, type: 3}
+      propertyPath: characterName
+      value: Staff_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 799c4b9e7fdcc4d5ab5de87c7d9b77ba, type: 3}
       propertyPath: dialog0.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -6143,6 +6167,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1030014366}
     m_Modifications:
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: characterName
+      value: NPC_1
+      objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.size
       value: 1
@@ -7605,6 +7633,10 @@ PrefabInstance:
       value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: characterName
+      value: NPC_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -7754,6 +7786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d82ad11ab89a430490a0972408e84d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterName: Player
   dialogueObject: {fileID: 1954354072}
   dialog0:
   - Hello Andy!
@@ -7778,7 +7811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370382084}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdbac246399834e4da34216b673255de, type: 3}
   m_Name: 
@@ -12872,6 +12905,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1030014366}
     m_Modifications:
     - target: {fileID: 286176353061492579, guid: 95eeb56e7baf142e092c1da6fa2fb179, type: 3}
+      propertyPath: characterName
+      value: Cust_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 286176353061492579, guid: 95eeb56e7baf142e092c1da6fa2fb179, type: 3}
       propertyPath: dialog0.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -13187,6 +13224,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1030014366}
     m_Modifications:
+    - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
+      propertyPath: characterName
+      value: Staff_1
+      objectReference: {fileID: 0}
     - target: {fileID: 286176353061492579, guid: 8a2057dc84db64876b972e220d9c72cf, type: 3}
       propertyPath: dialog0.Array.size
       value: 3
