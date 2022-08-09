@@ -49,21 +49,18 @@ public class ShelfCode : MonoBehaviour
 
     public void CheckShelf()
     {
-        if (Btn.activeSelf)// && !PlayerMovement.isTalking)
+        if (Btn.activeSelf)
         {
             PlayerMovement.isAction = true;
             ShelfWindow.SetActive(true);
             Btn.SetActive(false);
-            //PlayerMovement.isTalking = true;
         }
 
         else if (ShelfWindow.activeSelf)
         {
             PlayerMovement.isAction = false;
-            Debug.Log("Open Shelf");
             ShelfWindow.SetActive(false);
             Btn.SetActive(true);
-            //PlayerMovement.isTalking = false;
 
         }
     }

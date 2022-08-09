@@ -9,6 +9,7 @@ TagManager:
   - NPCStaff2
   - NPCCust1
   - Shelf
+  - FittingRoom
   layers:
   - Default
   - TransparentFX
