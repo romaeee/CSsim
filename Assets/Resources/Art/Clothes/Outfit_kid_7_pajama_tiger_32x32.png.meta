@@ -1,0 +1,1410 @@
+fileFormatVersion: 2
+guid: bd8b4d963339d43d8b215daa35793f0c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146889348243948f6bf8385452c8ab5b
+      internalID: 1772067854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 192
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5098b582346440580b2a3dc4524fb4
+      internalID: -1532768558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b556ba1314f4fb9b40df70cc5bf260
+      internalID: 2105980229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2a1370de44c431d8b6d9f983fde032
+      internalID: -510737696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdb8f9c524964eacb73d726b83d7cad
+      internalID: -521466032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c1dffc299454df987c906b3f6f2d39
+      internalID: -423525511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee1c74ca53a64eed8c03fd186e14001
+      internalID: 1811648076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15018572c8e7d4af7bc1fa6310cc760a
+      internalID: -2056454173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02161cf5ceadb4134bb9366d0fd1f506
+      internalID: -532384072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91921bb60b0f64155ab5f6b2b46781d9
+      internalID: 1042607503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61518301d89fc45b9bcb225c5ae6a4bc
+      internalID: 747787091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf0b561874b416a849ff0a607cedab
+      internalID: -1265937670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d47f87b0543b46719d6a755e75c2f92
+      internalID: 27487080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b981456c541964b27a1a159a63075b07
+      internalID: -381990969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c32d2acd81f64064b2994718314dd0e
+      internalID: 350517060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9393ddb2af1c0449e80bf9129cc19a45
+      internalID: -1251120592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ada7d311716447fbc90c7895c054fe
+      internalID: 1619872596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff70de2bdf741c2aab7da521e41269
+      internalID: 875498429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75bb3e2cc1964c3f953e9a1df3ca2c6
+      internalID: -416695083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac40d06c5824480b956fb49c76ac7a
+      internalID: 1836924710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5082fc4a222f4498a74c2e12075259a
+      internalID: -1211289038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142fbe405edd642fc90c0d0aae19d4cf
+      internalID: -1160566930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_0
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8bd097e2da044e583c23c1c0546566
+      internalID: 1939087501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa0e8125bef4d9b9bda2ee9c7c2486
+      internalID: 25958595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942dfb956463a44f2b10164c988c8528
+      internalID: -1131258456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 128
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c392ec473c44c6a6fcbbbc224091e
+      internalID: -1951043047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4aca4a5e75d4cac927a0cff3d0b924
+      internalID: -692419831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_player_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 128
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f1e1e90fec414aa7333bb63e488fc
+      internalID: 1232327151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42724cedb293d498db80923a50e80e68
+      internalID: 144484211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed84fc8d2ff42c5b78a625577914b3
+      internalID: -268316868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86299cf46ed3427f88ab7db58f8e988
+      internalID: 573107685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9281d7f97421842dd89014768f54aa0d
+      internalID: 1676581507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d32beab33acd4833a3e50c8a0299206
+      internalID: -1889825116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72e8fd39ed3c401a802329088b45ddd
+      internalID: 627147197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2a7ac6cf265413da2c25dbba0b1a4d
+      internalID: -1974293480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e27df85211af4b1da958e0d0cc15059
+      internalID: 873954291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff8e86fe08f94e45979462f1da6d894
+      internalID: -1679175167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62918a2477e8c42a58fea500b75c3979
+      internalID: -898535493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 64
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c48c8007f9a4447ae8c2f2d4712ab0
+      internalID: 582280253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efdbd9b30ba34469889957a18532b66
+      internalID: 696138817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a99c90bf0c74247a268da77f0304b0
+      internalID: -1866045070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 66
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4e0034f2e8443aa844245df78c6514
+      internalID: -1947938504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3365510b24c84765bdc193f5ce16b3b
+      internalID: 1474335017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5182db5acb2d4e2cb000fbbec570a98
+      internalID: 1512140196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 66
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75504dca4e08240419e987b7e69de30f
+      internalID: -837723964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7d9e519dc404ff49523df7467bbc12
+      internalID: 1849597404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc52cefd913fb402e94961a101eadc00
+      internalID: -623275952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527215bd7e1304b0695de432547d49d4
+      internalID: -1286545859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcabc818218e64c05988f086417041a4
+      internalID: -1125206980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99cd012568c84b3bb2166c9f6701300
+      internalID: -526888935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 64
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8befd1f152e4636b4362eae75f1a06
+      internalID: -70024302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 66
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25a892906aeb490188d4337055eaa62
+      internalID: -26496300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f590012a12f84e1cbff71f34cab2b7b
+      internalID: 470337494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 12
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cda8b13557f471fb2f4fcd6d59b3b3
+      internalID: 758276725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 14
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67438d5a9ba4e40eabb72caa30837b5f
+      internalID: 832488110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 14
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca63183b6996499e87ee0dcb7aa3c65
+      internalID: -431508581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 12
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8eb3835a7f4441c805e4dab694ef8d
+      internalID: -209401557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outfit_kid_7_pajama_tiger_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 12
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d038b8fb888c54d27bf8cc0c1ddf666e
+      internalID: -793409917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Outfit_kid_7_pajama_tiger_32x32_31: 1676581507
+      Outfit_kid_7_pajama_tiger_32x32_55: -431508581
+      Outfit_kid_7_pajama_tiger_32x32_46: -623275952
+      Outfit_kid_7_pajama_tiger_32x32_57: -793409917
+      Outfit_kid_7_pajama_tiger_32x32_32: -1889825116
+      3_player_3: -1951043047
+      Outfit_kid_7_pajama_tiger_32x32_54: 832488110
+      Outfit_kid_7_pajama_tiger_32x32_41: -1947938504
+      3_player_1: 25958595
+      Outfit_kid_7_pajama_tiger_32x32_19: 1836924710
+      Outfit_kid_7_pajama_tiger_32x32_14: 350517060
+      Outfit_kid_7_pajama_tiger_32x32_38: 582280253
+      Outfit_kid_7_pajama_tiger_32x32_8: -532384072
+      Outfit_kid_7_pajama_tiger_32x32_15: -1251120592
+      Outfit_kid_7_pajama_tiger_32x32_48: -1125206980
+      Outfit_kid_7_pajama_tiger_32x32_1: -1532768558
+      3_player_4: -692419831
+      Outfit_kid_7_pajama_tiger_32x32_43: 1512140196
+      Outfit_kid_7_pajama_tiger_32x32_29: -268316868
+      Outfit_kid_7_pajama_tiger_32x32_28: 144484211
+      Outfit_kid_7_pajama_tiger_32x32_35: 873954291
+      Outfit_kid_7_pajama_tiger_32x32_12: 27487080
+      Outfit_kid_7_pajama_tiger_32x32_17: 875498429
+      Outfit_kid_7_pajama_tiger_32x32_40: -1866045070
+      Outfit_kid_7_pajama_tiger_32x32_7: -2056454173
+      Outfit_kid_7_pajama_tiger_32x32_4: -521466032
+      Outfit_kid_7_pajama_tiger_32x32_30: 573107685
+      Outfit_kid_7_pajama_tiger_32x32_47: -1286545859
+      Outfit_kid_7_pajama_tiger_32x32_6: 1811648076
+      Outfit_kid_7_pajama_tiger_32x32_51: -26496300
+      Outfit_kid_7_pajama_tiger_32x32_2: 2105980229
+      Outfit_kid_7_pajama_tiger_32x32_53: 758276725
+      Outfit_kid_7_pajama_tiger_32x32_56: -209401557
+      Outfit_kid_7_pajama_tiger_32x32_49: -526888935
+      Outfit_kid_7_pajama_tiger_32x32_50: -70024302
+      Outfit_kid_7_pajama_tiger_32x32_42: 1474335017
+      Outfit_kid_7_pajama_tiger_32x32_10: 747787091
+      Outfit_kid_7_pajama_tiger_32x32_52: 470337494
+      Outfit_kid_7_pajama_tiger_32x32_18: -416695083
+      Outfit_kid_7_pajama_tiger_32x32_37: -898535493
+      Outfit_kid_7_pajama_tiger_32x32_33: 627147197
+      Outfit_kid_7_pajama_tiger_32x32_44: -837723964
+      Outfit_kid_7_pajama_tiger_32x32_39: 696138817
+      Outfit_kid_7_pajama_tiger_32x32_0: 1772067854
+      Outfit_kid_7_pajama_tiger_32x32_13: -381990969
+      Outfit_kid_7_pajama_tiger_32x32_21: -1160566930
+      Outfit_kid_7_pajama_tiger_32x32_3: -510737696
+      Outfit_kid_7_pajama_tiger_32x32_5: -423525511
+      Outfit_kid_7_pajama_tiger_32x32_16: 1619872596
+      Outfit_kid_7_pajama_tiger_32x32_9: 1042607503
+      Outfit_kid_7_pajama_tiger_32x32_11: -1265937670
+      3_player_5: 1232327151
+      Outfit_kid_7_pajama_tiger_32x32_20: -1211289038
+      Outfit_kid_7_pajama_tiger_32x32_36: -1679175167
+      3_player_2: -1131258456
+      Outfit_kid_7_pajama_tiger_32x32_34: -1974293480
+      3_player_0: 1939087501
+      Outfit_kid_7_pajama_tiger_32x32_45: 1849597404
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
